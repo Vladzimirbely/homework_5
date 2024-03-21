@@ -14,3 +14,5 @@ def test_enter_data():
     browser.element('.react-datepicker__year-select').click()
     browser.element('option[value="1998"]').click()
     browser.element('.react-datepicker__day--002').click()
+    browser.element('#subjectsInput').type('Computer Science').press_enter()
+    browser.element('label[for="hobbies-checkbox-3"]').click()
