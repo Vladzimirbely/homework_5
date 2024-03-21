@@ -16,3 +16,4 @@ def test_enter_data():
     browser.element('.react-datepicker__day--002').click()
     browser.element('#subjectsInput').type('Computer Science').press_enter()
     browser.element('label[for="hobbies-checkbox-3"]').click()
+    browser.element('#uploadPicture').send_keys('C:/Users/vladz/OneDrive/Desktop/homework_5/test/images/Screenshot_1.png')
