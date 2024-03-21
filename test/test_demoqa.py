@@ -3,8 +3,6 @@ from selene import browser, be, have, command
 
 def test_enter_data():
     browser.open('/automation-practice-form')
-    browser.config.window_width = 1920
-    browser.config.window_height = 1080
     browser.element('#firstName').type('first name')
     browser.element('#lastName').type('last name')
     browser.element('#userEmail').type('test@test.test')
